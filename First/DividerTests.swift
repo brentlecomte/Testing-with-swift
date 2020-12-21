@@ -1,17 +1,20 @@
 //
-//  FirstTests.swift
+//  DividerTests.swift
 //  FirstTests
 //
-//  Created by Brent Le Comte on 22/11/2020.
+//  Created by Brent Le Comte on 29/11/2020.
 //
 
 import XCTest
 @testable import First
 
-class FirstTests: XCTestCase {
+class DividerTests: XCTestCase {
+	
+	var sut: Divider!
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
+		sut = Divider()
     }
 
     override func tearDownWithError() throws {
@@ -29,30 +32,19 @@ class FirstTests: XCTestCase {
             // Put the code you want to measure the time of here.
         }
     }
-    
-    func testHaterStartsNicely() {
-        let hater = Hater()
-        
-        XCTAssertFalse(hater.hating, "New Haters should not be hating.")
-    }
-    
-    func testHaterHatesAfterBadDay() {
-        // Given
-        var hater = Hater()
-        
-        // When
-        hater.hadABadDay()
-        
-        // Then
-        XCTAssertTrue(hater.hating)
-    }
-    
-    func testHaterHatesAfterGoodDay() {
-        var hater = Hater()
-        
-        hater.hadAGoodDay()
-        
-        XCTAssertFalse(hater.hating)
-    }
+	
+	func testDivide10By3() {
+		let dividend = 10
+		let dividor = 3
+		
+		let result = sut.divisionRemainder(of: dividend, dividedBy: dividor)
+		
+		verifyDivision(result, expectedQuotient: 3, expectedRemainder: 1)
+	}
+	
+	func verifyDivision(_ result: (quotient: Int, remainder: Int), expectedQuotient: Int, expectedRemainder: Int, file: StaticString = #file, line: UInt = #line) {
+		XCTAssertEqual(result.quotient, expectedQuotient, file: file, line: line)
+		XCTAssertEqual(result.remainder, expectedRemainder, file: file, line: line)
+	}
 
 }
