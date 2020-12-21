@@ -16,6 +16,8 @@
 		84A7A6772573CC2400C8F879 /* Divider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A7A6762573CC2400C8F879 /* Divider.swift */; };
 		84A7A67C2573CC9900C8F879 /* DividerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A7A67B2573CC9900C8F879 /* DividerTests.swift */; };
 		84A7A6882573D00400C8F879 /* ThrowingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A7A6872573D00400C8F879 /* ThrowingTests.swift */; };
+		84D91DDF2590B06B009782EC /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D91DDE2590B06B009782EC /* User.swift */; };
+		84D91DF22590B157009782EC /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D91DDE2590B06B009782EC /* User.swift */; };
 		84EEC1AE256AA87400522128 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EEC1AD256AA87400522128 /* AppDelegate.swift */; };
 		84EEC1B0256AA87400522128 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EEC1AF256AA87400522128 /* SceneDelegate.swift */; };
 		84EEC1B2256AA87400522128 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EEC1B1256AA87400522128 /* ViewController.swift */; };
@@ -62,6 +64,7 @@
 		84A7A6762573CC2400C8F879 /* Divider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Divider.swift; sourceTree = "<group>"; };
 		84A7A67B2573CC9900C8F879 /* DividerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DividerTests.swift; path = First/DividerTests.swift; sourceTree = SOURCE_ROOT; };
 		84A7A6872573D00400C8F879 /* ThrowingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThrowingTests.swift; sourceTree = "<group>"; };
+		84D91DDE2590B06B009782EC /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		84EEC1AA256AA87400522128 /* First.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = First.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84EEC1AD256AA87400522128 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84EEC1AF256AA87400522128 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -151,6 +154,7 @@
 				84A7A6762573CC2400C8F879 /* Divider.swift */,
 				84EEC1AD256AA87400522128 /* AppDelegate.swift */,
 				84EEC1AF256AA87400522128 /* SceneDelegate.swift */,
+				84D91DDE2590B06B009782EC /* User.swift */,
 				84EEC1B1256AA87400522128 /* ViewController.swift */,
 				84EEC1B3256AA87400522128 /* Main.storyboard */,
 				84EEC1B6256AA87600522128 /* Assets.xcassets */,
@@ -344,6 +348,7 @@
 			files = (
 				8443EAB8257D007C00A615B6 /* AsynchronousTests.swift in Sources */,
 				8443EAC9257D027D00A615B6 /* PrimeCalculator.swift in Sources */,
+				84D91DF22590B157009782EC /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,6 +360,7 @@
 				84EEC1AE256AA87400522128 /* AppDelegate.swift in Sources */,
 				84EEC1E1256AA89800522128 /* Hater.swift in Sources */,
 				8443EAC4257D017900A615B6 /* PrimeCalculator.swift in Sources */,
+				84D91DDF2590B06B009782EC /* User.swift in Sources */,
 				84A7A6772573CC2400C8F879 /* Divider.swift in Sources */,
 				84EEC1B0256AA87400522128 /* SceneDelegate.swift in Sources */,
 				8414C9A6256C2CE000D8A01A /* Converter.swift in Sources */,
